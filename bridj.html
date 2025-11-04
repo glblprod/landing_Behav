@@ -1,6 +1,6 @@
 <html>
 <head>
-<style src='style.css'></style>  
+<link href="style.css" rel="stylesheet" type="text/css"> 
 </head>
 <body>
 <div class='msg'></div>
@@ -8,5 +8,4 @@
 <script>
 document.querySelector(".msg").innerText = decodeURIComponent(window.location.href.split("&texto")[1].split("=")[1].split("&")[0])
 </script>
-
 </html>
