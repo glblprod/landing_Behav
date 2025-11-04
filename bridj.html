@@ -1,0 +1,9 @@
+<html>
+<head></head>
+<body>
+<div class='msg'></div>
+</body>
+<script>
+document.querySelector(".msg").innerText = decodeURIComponent(window.location.href.split("&texto")[1].split("=")[1].split("&")[0])
+</script>
+</html>
